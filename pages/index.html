@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budger Calculator</title>
+
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <h1>Budget</h1>
+    </header>
+
+    <form id="info-container" action="" method="">
+        <div class="input-container">
+            <label for="income">Income £</label>
+            <input required id="income" type="number" name="clients-income">
+        </div>
+        <div class="input-container">
+            <label for="essentials">essentials %</label>
+            <input required id="essentials" type="number" name="clients-essentials-percentage">
+        </div>
+        <div class="input-container">
+            <label for="savings">Savings %</label>
+            <input required id="savings" type="number" name="clients-savings-percentage">
+        </div>
+        <div class="input-container">
+            <label for="savings">Leisure %</label>
+            <input required id="leisure" type="number" name="clients-leisure-percentage">
+        </div>
+
+        <input type="submit" value="calculate" id="calculate">
+
+    </form>
+
+   
+    <!-- <div id="results-container">
+        <p>On a income of £<span class="income-of-value">2000</span>, you will budget:</p>
+
+        <div class="results">
+            <h2>Essentials</h2>
+            <p>£<span class="value essentials-value">1000</span></p>
+        </div>
+        <div class="results">
+            <h2>Savings</h2>
+            <p>£<span class="value savings-value">600</span></p>
+        </div>
+        <div class="results">
+            <h2>Leisure</h2>
+            <p>£<span class="value leisure-value">400</span></p>
+        </div>
+
+        <button id="reset">Reset</button>
+    </div> -->
+    
+
+    <script src='/app.js'></script>
+</body>
+</html>
